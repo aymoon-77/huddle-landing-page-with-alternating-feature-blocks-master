@@ -1,0 +1,97 @@
+/*!media */
+@media screen and (min-width:1200px) {
+    h2{
+        width: 70%;
+    }
+    header{
+        background-image: url(./images/bg-hero-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 1.5em;
+    }
+    header nav button{
+        width: 10%;
+        padding: 1em;
+    }
+    header nav {
+        padding: 2em;
+        margin-bottom: 4em;
+    }
+    .button button{
+        width: 40%;
+    }
+    .b-div{
+        float: left;
+        text-align: start;
+        width:30% ;
+    }
+    .image-2 img{
+        float: right;
+        width: 50%;
+    }
+    /* ?start main */
+    main{
+        text-align: start;
+    }
+    .contianer{
+        width: 85%;
+    }
+    .img-c{
+        float: right;
+        width: 40%;
+        transform: translate(5em);
+    }
+    .img-c img{
+        width: 50%;
+        
+    }
+    .content{
+        float: left;
+        width: 35%;
+    }
+    .t-section{
+        margin-bottom: 10em;
+    }
+    /* ?footer */
+    footer .box{
+        width: 40%;
+        left: 30%;
+    }
+    .box a button{
+        width: 30%;
+    }
+    footer .icon{
+        text-align: start;
+    }
+    footer .logo{
+        width: 50%;
+    }
+    .parent{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 300px;
+        padding: 1.5em;
+    }
+     footer .column-1{
+        width: 21%;
+        height: 80%;
+        transform: translate(0,-5em);
+    }
+     .s-link{
+        height: 60%;
+        width: 20%;
+        align-self: center;
+        align-content: center;
+     }
+     footer .icon{
+        justify-content: start;
+        height: 60%;
+     }
+    footer .copyright{
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+    }
+}
