@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./media.css">
   <title>Huddle landing page with alternating feature blocks</title>
 </head>
-<body>
+<body >
 <!-- header -->
 <header>
   <nav>
@@ -36,9 +36,9 @@
   <div class="fix"></div>
 </header>
 <!-- start main -->
-<main>
+<main >
   <!-- f-section -->
-<section class="contianer f-section">
+<section class="contianer f-section" id="fsection">
     <div class="img-c">
       <img src="./images/illustration-grow-together.svg" alt="image.">
     </div>
@@ -49,7 +49,7 @@
     <div class="fix"></div>
 </section>
 <!-- s-section -->
-<section class="contianer">
+<section class="contianer" id="ssection">
   <div class="img-c">
     <img src="./images/illustration-flowing-conversation.svg" alt="image.">
   </div>
@@ -61,7 +61,7 @@
   <div class="fix"></div>
 </section>
 <!-- t-section -->
-<section class="contianer t-section">
+<section class="contianer t-section" id="tsection" >
   <div class="img-c">
     <img src="./images/illustration-your-users.svg" alt="image.">
   </div>
@@ -73,10 +73,14 @@
   <div class="fix"></div>
 </section>
 </main>
+<div id="colors">
+  <span id="span1" data-color="#faccff"></span><span id="span2" data-color="#c4fcef"></span><span id="span3" data-color="#dcebf1"></span>
+  <span id="span4" data-color="rgba(214, 208, 208, 0.106)"></span>
+</div>
 <!-- footer -->
 <footer>
   <!-- box -->
-    <div class="box">
+    <div class="box" id="div">
       <p>Ready To Build Your Community?</p>
       <a href="#">
         <button>Get Started For Free</button>
@@ -117,6 +121,7 @@
    &copy; Copyright 2018 Huddle. All rights reserved. 
  </div>
 </footer>
-
+<script src="./script.js">
+</script>
 </body>
 </html>

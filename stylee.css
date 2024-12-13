@@ -84,6 +84,12 @@ header nav button{
     padding: .5em;
     border-radius: 2em;
     cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+header nav button:hover, .button button:hover,.box a button:hover{
+    background-color: #c493ff;
+    transform: scale(1.2);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 .b-div{
     text-align: center;
@@ -101,6 +107,7 @@ header nav button{
     border: none;
     margin-bottom: 1.5em;
     cursor: pointer;
+    
 }
 header .image-2{
     margin: 1em auto;
@@ -154,6 +161,7 @@ section .content p{
     border-radius: 2em;
     border: none;
     cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 footer{
     background-color: var(--Very-Dark-Cyan);
@@ -206,4 +214,36 @@ footer .icon a{
 footer .copyright{
     color: white;
     font-size: 14px;
+}
+
+#colors{
+    margin: 4em auto 1em auto;
+    transform: translate(.4em, -5em);
+    -webkit-transform: translate(.4em, -5em);
+    -moz-transform: translate(.4em, -5em);
+    -ms-transform: translate(.4em, -5em);
+    -o-transform: translate(.4em, -5em);
+}
+#colors span{
+    background-color:#faccff;
+    display: inline-block;
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    margin: 1em;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#colors span:hover{
+    transform: scale(1.5);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+#colors span:nth-child(2){
+    background-color: #c4fcef;
+}
+#colors span:nth-child(3){
+    background-color: #dcebf1;
+} 
+#colors span:last-child{
+    background-color:rgba(214, 208, 208, 0.106);
 }
